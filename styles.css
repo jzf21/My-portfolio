@@ -74,3 +74,30 @@ img{
     from, to { border-color: transparent }
     50% { border-color: orange; }
   }
+
+#about{
+    color: rgb(170, 168, 168);
+}
+#contact{
+    background-color: rgb(35, 34, 36);
+    
+    width: 100%;
+    color: cyan;
+    
+}
+#contact h1{
+    margin-left: 20vh;
+}
+#box{
+    display: inline;
+    display: block;
+    background-color: rgb(4, 54, 54);
+    color: rgb(162, 177, 177);
+    align-self: left;
+    height: auto;
+    width: 80vh;
+    font-size: 20px;
+    margin-left:20vh;
+    padding: 50px 50px 50px 50px;
+    line-height: 2;
+}
