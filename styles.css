@@ -1,0 +1,76 @@
+h1{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 15vh;
+    padding-left: 50px;
+    margin-top: 20px;
+    
+    
+}
+#maintitle{
+    color: rgb(199, 255, 199);
+}
+nav{
+    margin-bottom:0px;
+}
+.container1{
+    padding:50px 50px 50px 50px;
+    margin: auto;
+
+}
+#home{
+    background-color: rgb(31, 31, 31);
+    width:100%;
+    height: 100vh;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+section{
+    height: 100vh;
+}
+#profile{
+    background-color: rgb(233, 128, 128);
+    width:100%;
+    height: 100vh;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+#profiletitle{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 70px;
+    padding-left: 30px;
+    margin-top: 20px;
+    color: rgb(29, 32, 32);
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+ 
+}
+img{
+    margin-left: 20vh;
+}
+
+
+.container1 h1 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
