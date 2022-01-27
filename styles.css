@@ -105,7 +105,8 @@ img{
     width: 80vh;
     font-size: 20px;
     margin-left:16vh;
-    padding: 50px 40px;
+    padding: 20px 30px;
+    padding-bottom: 50px;
     line-height: 2;
     border-radius: 20px;
 }
@@ -116,14 +117,15 @@ h3{
     color: #c1c1c1;
 
     overflow: hidden;
+    opacity: 0;
     
     
-    animation-fill-mode: forwards;
     margin-top: 10vh;
     margin-left: 10vh;
     animation: 
       fadein 3.5s ;
       animation-delay: 4s;
+      animation-fill-mode: forwards;
       
       
 }
@@ -175,6 +177,8 @@ a{
 .navbar{
     position: fixed;
     width: 100%;
+    background-color:#067a75 ;
+    color: whitesmoke;
     
 }
 .nav-item{
@@ -182,9 +186,16 @@ a{
     margin-left: 20px;
     font-size: 20px;
 }
+.nav-item .nav-link:hover{
+    color: yellowgreen;
+}
+.navbar a:hover{color: yellowgreen;
+
+}
 #about{
     margin-top: 0vh;
     color: #067a75;
+    padding-top: 40px;
 }
 p1{
     font-weight: 500;
