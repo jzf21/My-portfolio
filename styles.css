@@ -83,7 +83,7 @@ img{
 
 }
 #contact{
-    background-color: rgb(35, 34, 36);
+    background-color: #091618;
     
     width: 100%;
     color: cyan;
@@ -98,8 +98,8 @@ img{
 #box{
     display: inline;
     display: block;
-    background-color: rgb(4, 54, 54);
-    color: rgb(162, 177, 177);
+    
+    color: #067a75;
     align-self: left;
     height: auto;
     width: 80vh;
@@ -137,11 +137,11 @@ h3{
 .btn{
     position: relative;
     display:inline-block;
-    background:rgb(56, 56, 56) ;
-    color:rgb(145, 145, 145);
+    background:#091618 ;
+    color:#067a75;
     padding:10px 25px;
     margin:20px 0;
-    border-radius:30px;
+    border-radius:20px;
     z-index:9;
     transition: background  0.5s;
     transition: color 0.5s;
@@ -152,8 +152,8 @@ h3{
 
 }
 .btn:hover {
-    background: #e6e6e6;
-    color:black;
+    background:  rgb(3, 165, 165);
+    color:whitesmoke;
 }
 a{
     text-decoration: none;
@@ -184,6 +184,7 @@ a{
 }
 #about{
     margin-top: 0vh;
+    color: #067a75;
 }
 p1{
     font-weight: 500;
