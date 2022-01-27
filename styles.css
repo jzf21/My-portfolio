@@ -105,14 +105,17 @@ img{
     margin-left:20vh;
     padding: 50px 50px 50px 50px;
     line-height: 2;
+    border-radius: 20px;
 }
 
 
 h3{
     font-size: 40px;
     color: #c1c1c1;
-    z-index: 2;
-    opacity: 0;
+
+    overflow: hidden;
+    
+    
     animation-fill-mode: forwards;
     margin-top: 10vh;
     margin-left: 10vh;
@@ -128,6 +131,7 @@ h3{
     from { opacity: 0 }
     to { opacity: 100% }
   }
+
 .btn{
     position: relative;
     display:inline-block;
